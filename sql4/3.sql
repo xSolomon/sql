@@ -1,0 +1,1 @@
+SELECT AVG(UnitPrice), MIN(UnitPrice), MAX(UnitPrice) From [Order Details]
