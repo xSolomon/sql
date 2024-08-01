@@ -1,3 +1,1 @@
-SELECT * FROM Employees
-WHERE Region IS NOT NULL
-ORDER BY BirthDate DESC, Country;
+SELECT * FROM Employees ORDER BY BirthDate DESC, Country;
