@@ -1,0 +1,1 @@
+SELECT Discount * 100 FROM [Order Details]
