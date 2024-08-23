@@ -13,8 +13,7 @@ VALUES ('1', 'TestNorth', 'North region'),
 CREATE TABLE Territories ( 
     TerritoryID nvarchar(20) NOT NULL, 
     TerritoryDescription nchar(50) NOT NULL,
-	RegionID int NOT NULL,
-	PRIMARY KEY (TerritoryID) );
+	RegionID int NOT NULL);
 
 INSERT INTO Territories (TerritoryID, TerritoryDescription, RegionID)
 VALUES ('12345', 'Northland', '1'),
