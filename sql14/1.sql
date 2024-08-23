@@ -1,8 +1,8 @@
 USE TestBase;
 
 CREATE TABLE Region ( 
-    RegionID int NOT NULL, 
-    RegionDescription nchar(50) NOT NULL);
+	RegionID int NOT NULL, 
+	RegionDescription nchar(50) NOT NULL);
 
 ALTER TABLE Region ADD Help nchar(16);
 
@@ -11,8 +11,8 @@ VALUES ('1', 'TestNorth', 'North region'),
 	('2', 'TestSouth', 'South region');
 
 CREATE TABLE Territories ( 
-    TerritoryID nvarchar(20) NOT NULL, 
-    TerritoryDescription nchar(50) NOT NULL,
+	TerritoryID nvarchar(20) NOT NULL, 
+	TerritoryDescription nchar(50) NOT NULL,
 	RegionID int NOT NULL);
 
 INSERT INTO Territories (TerritoryID, TerritoryDescription, RegionID)
